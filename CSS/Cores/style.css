@@ -1,0 +1,8 @@
+* {
+    height: 100%;
+}
+
+body {
+    background-image: radial-gradient(circle, #F0C9DC, #F56A99, #E19861, #E17661);
+    background-attachment: fixed;
+}

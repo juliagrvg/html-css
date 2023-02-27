@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        a{
+            color: darkred;
+            text-decoration: none; /* aqui é para retirar o sublinhado dos links, que vem por padrão */
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: crimson;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline; /* aqui é para quando a pessoa passar o mouse por cima, o texto estará sublinhado */
+        }
+
+        a:active{
+            color: orange; /* para quando clicar no link, ele ficará em destaque com outra cor */
+        }
+
+        a::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Peronsalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">Repositório GitHup</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://twitter.com/jlgrvg" target="_blank">Twitter</a></li>
+    </ul>
+</body>
+</html>
